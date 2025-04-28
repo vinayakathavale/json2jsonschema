@@ -1,0 +1,18 @@
+[project]
+name = "json2jsonschema"
+version = "0.1.0"
+description = "A simple JSON to JSON Schema converter"
+requires-python = ">=3.12"
+dependencies = [
+    "monsterui>=1.0.18",
+    "python-fasthtml>=0.12.0",
+    "uvicorn>=0.24.0",
+    "to-json-schema>=1.0.1"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["json2jsonschema"] 
