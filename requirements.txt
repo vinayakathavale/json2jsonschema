@@ -1,4 +1,4 @@
-fastapi>=0.104.1
+monsterui>=1.0.18
+python-fasthtml>=0.12.0
 uvicorn>=0.24.0
-jinja2>=3.1.2
-python-multipart>=0.0.6 
+to-json-schema>=1.0.1 
