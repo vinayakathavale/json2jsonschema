@@ -1,6 +1,7 @@
 # JSON to JSON Schema Converter
 
-A simple FastHTML web application that converts JSON to JSON Schema.
+A simple web application that converts JSON to JSON Schema using the `to-json-schema` package.
+
 
 ## Installation
 
@@ -11,7 +12,7 @@ uv sync
 ## Usage
 
 ```bash
-uv run json2jsonschema.py
+uv run main.py
 ```
 
 Then open http://localhost:8000 in your browser.
